@@ -1,0 +1,108 @@
+<project>
+ <properties encryptAssets="0" html5_mem="256" win_domain="giderosmobile.com" win_org="GiderosMobile" html5_fbinstant="0" splash_h_image="" android_template="0" app_name="gideros bubble" osx_org="GiderosMobile" build_number="1" mouseToTouch="1" app_icon="" orientation="0" osx_category="5" packageName="com.yourdomain.yourapp" retinaDisplay="0" html5_pack="0" autorotation="0" architecture="0" disableSplash="0" osx_domain="giderosmobile.com" logicalWidth="600" logicalHeight="800" winrt_org="GiderosMobile" encryptCode="0" exportMode="0" html5_fbload="100" splash_v_image="" fps="60" version_code="1" mouseTouchOrder="0" winrt_package="com.yourdomain.yourapp" iosDevice="0" splashScaleMode="0" touchToMouse="1" version="1.0" backgroundColor="#ffffff" html5_host="" html5_wasm="0" windowHeight="0" osx_installerId="" windowWidth="0" osx_signingId="" vsync="1" html5_symbols="0" ios_bundle="com.yourdomain." html5_crash="" scaleMode="3" osx_bundle="com.yourdomain." tv_icon="">
+  <imageScales/>
+  <plugins>
+   <plugin enabled="1" name="Ads">
+    <property value="1" name="adsFwAdmob"/>
+    <property value="" name="adsFwAdmobBanner"/>
+    <property value="" name="adsFwAdmobClient"/>
+    <property value="" name="adsFwAdmobInterstitial"/>
+    <property value="0" name="adsFwApplovin"/>
+    <property value="" name="adsFwApplovinKey"/>
+    <property value="0" name="adsFwChartboost"/>
+    <property value="0" name="adsFwKiip"/>
+    <property value="" name="adsFwKiipKey"/>
+    <property value="" name="adsFwKiipKeyIos"/>
+    <property value="0" name="adsFwUnity"/>
+    <property value="0" name="adsFwVungle"/>
+    <property value="" name="gmsAppId"/>
+    <property value="16.0.0" name="gmsVersion"/>
+   </plugin>
+   <plugin enabled="1" name="Gaming">
+    <property value="" name="gmsAppId"/>
+    <property value="0" name="gmsFwGamekit"/>
+    <property value="1" name="gmsFwGoogle"/>
+    <property value="16.0.0" name="gmsVersion"/>
+   </plugin>
+   <plugin enabled="0" name="Native"/>
+   <plugin enabled="1" name="Require">
+    <property value="0" name="reqAccel"/>
+    <property value="" name="reqCanOpenUrl"/>
+    <property value="" name="reqCanRespondUrl"/>
+    <property value="0" name="reqCompass"/>
+    <property value="0" name="reqDisable32bits"/>
+    <property value="0" name="reqDisableArm"/>
+    <property value="1" name="reqDisableX86"/>
+    <property value="0" name="reqEnable64bits"/>
+    <property value="1" name="reqExpRegCompliance"/>
+    <property value="0" name="reqFullOrientation"/>
+    <property value="0" name="reqGps"/>
+    <property value="0" name="reqGpsBackground"/>
+    <property value="" name="reqGpsReason"/>
+    <property value="0" name="reqGyro"/>
+    <property value="1" name="reqMaxAspect"/>
+    <property value="0" name="reqMetal"/>
+    <property value="1" name="reqNoGps"/>
+    <property value="0" name="reqNoInternet"/>
+    <property value="0" name="reqNoMP3"/>
+    <property value="0" name="reqNoSensor"/>
+    <property value="1" name="reqNoVibrator"/>
+    <property value="0" name="reqNoXMP"/>
+    <property value="0" name="reqPhoneOnly"/>
+    <property value="0" name="reqPreventBackup"/>
+    <property value="1" name="reqScreenShape"/>
+    <property value="0" name="reqTVCompat"/>
+    <property value="0" name="reqTVExtCompat"/>
+    <property value="0" name="reqTouch"/>
+    <property value="0" name="reqWriteExternalStorage"/>
+   </plugin>
+  </plugins>
+  <exports>
+   <export name="APK">
+    <property value="" name="androidPath"/>
+    <property value="" name="androidSdk"/>
+    <property value="28" name="androidTarget"/>
+    <property value="" name="androidTools"/>
+    <property value="1" name="buildApk"/>
+    <property value="0" name="deployApk"/>
+    <property value="" name="javaPath"/>
+    <property value="" name="keyAlias"/>
+    <property value="" name="keyStore"/>
+    <property value="com.mokalux.bubble" name="packageName"/>
+    <property value="0" name="timestampApk"/>
+   </export>
+  </exports>
+ </properties>
+ <folder name="AUDIO">
+  <folder name="sfx">
+   <file name="assets/AUDIO/sfx/pop.ogg"/>
+  </folder>
+ </folder>
+ <folder name="CLASSES">
+  <file name="assets/CLASSES/button.lua"/>
+  <file name="assets/CLASSES/easing.lua"/>
+  <file name="assets/CLASSES/myclass.lua"/>
+  <file name="assets/CLASSES/scenemanager.lua"/>
+ </folder>
+ <folder name="GFX">
+  <folder name="bubble">
+   <file name="assets/GFX/bubble/bubble.lua"/>
+  </folder>
+  <folder name="ui">
+   <file name="assets/GFX/ui/menu_down.png"/>
+   <file name="assets/GFX/ui/menu_up.png"/>
+   <file name="assets/GFX/ui/play_down.png"/>
+   <file name="assets/GFX/ui/play_up.png"/>
+   <file name="assets/GFX/ui/restart_down.png"/>
+   <file name="assets/GFX/ui/restart_up.png"/>
+   <file name="assets/GFX/ui/x.png"/>
+  </folder>
+ </folder>
+ <folder name="LEVELS">
+  <file name="assets/LEVELS/game.lua"/>
+  <file name="assets/LEVELS/gameover.lua"/>
+  <file name="assets/LEVELS/menu.lua"/>
+ </folder>
+ <file name="assets/init.lua"/>
+ <file name="assets/main.lua"/>
+</project>
